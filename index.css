@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.backgroundContainer {
+  background-color: #0f172a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+  .heading {
+    font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 60px;
+  }
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 35%;
+}
