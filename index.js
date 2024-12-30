@@ -1,5 +1,4 @@
 const element = (
-  //   Write your code here.
   <div className='backgroundContainer'>
     <h1 className='heading'> Super Over League </h1>
     <div className='image-container'>
